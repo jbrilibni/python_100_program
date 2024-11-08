@@ -1,0 +1,10 @@
+def segi_enam(): 
+    print('='*40)
+    print('KELILING SEGI ENAM')
+    print('='*40)
+
+    s = int(input('masukkan panjang sisinya: '))
+    l = lambda s : 6 * s
+    print(f'keliling : {l(s)}')
+
+segi_enam()
